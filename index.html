@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/3c1f86627d.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/components.css">
+        <title>Booking App</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Company Logo" class="logo" />
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search this site ..." />
+                    <button class="search__button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <i class="fa-solid fa-bookmark user-nav__icon"></i>
+                        <span class="user-nav__notification">12</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <i class="fa-solid fa-comment user-nav__icon"></i>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__user-box">
+                        <img src="img/user.png" alt="Profile Thumbnail" class="user-nav__profile" />
+                        <span class="user-nav__user-name">Sanjeev</span>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="" class="side-nav__link">
+                                <i class="fas fa-home side-nav__icon"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="" class="side-nav__link">
+                                <i class="fas fa-utensils side-nav__icon"></i>
+                                <span>Restaurants</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="" class="side-nav__link">
+                                <i class="fas fa-key side-nav__icon"></i>
+                                <span>Car Rentals</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="" class="side-nav__link">
+                                <i class="fas fa-map side-nav__icon"></i>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        &copy;2023 TopDeal Ltd. All rights Reserved.
+                    </div>
+                   
+                </nav>
+
+                <main class="hotel-info">
+                    <div class="gallery">
+                        <figure>
+                            <img src="img/hotel-1.jpg" alt="Photo of Hotel 1" class="gallery__photo">
+                        </figure>
+                        <figure>
+                            <img src="img/hotel-2.jpg" alt="Photo of Hotel 2" class="gallery__photo">
+                        </figure>
+                        <figure>
+                            <img src="img/hotel-3.jpg" alt="Photo of Hotel 3" class="gallery__photo">
+                        </figure>
+                    </div>
+                    <div class="summary">
+                        <div class="summary__heading">
+                            <h1>Small Beach Hotel</h1>
+                        </div>
+
+                        <div class="summary__stars">
+                            <span class="material-icons summary__star-icon">star</span>
+                            <span class="material-icons summary__star-icon">star</span>
+                            <span class="material-icons summary__star-icon">star</span>
+                            <span class="material-icons summary__star-icon">star</span>
+                            <span class="material-icons summary__star-icon">star</span>                           
+
+                        </div>
+
+                        <div class="summary__location">
+                            <span class="material-icons summary__location-icon">location_on</span>
+                            <a href="#" class="summary__location-button">Belle Mare, Mauritius</a>
+                        </div>
+
+                        <div class="summary__rating">
+                            <div class="summary__rating-average">8.9</div>
+                            <div class="summary__rating-count">512 Votes</div>
+                        </div>
+                    </div>
+                    <div class="detail">Detail</div>
+                    <div class="book-now">Book-Now</div>
+                </main>
+            </div>
+            <footer class="footer">Footer</footer>
+        </div>
+    </body>
+</html>
