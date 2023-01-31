@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--W3 CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--W3 BOOTSTRAP-->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/components.css">
         <title>Booking App</title>
@@ -33,7 +35,7 @@
                         <span class="user-nav__notification">7</span>
                     </div>
                     <div class="user-nav__user-box">
-                        <img src="img/user.png" alt="Profile Thumbnail" class="user-nav__profile" />
+                        <img src="img/goku1.jpg" alt="Profile Thumbnail" class="user-nav__profile" />
                         <span class="user-nav__user-name">Ashvin</span>
                     </div>
                 </nav>
@@ -75,21 +77,23 @@
 
                 <main class="hotel-info">
                     <div class="gallery">
-                        <figure>
+                        <figure class="gallery__item">
                             <img src="img/hotel-1.jpg" alt="Photo of Hotel 1" class="gallery__photo">
+                            <figcaption><span>Small Beach Hotel Front</span></figcaption>
                         </figure>
-                        <figure>
+                        <figure class="gallery__item">
                             <img src="img/hotel-2.jpg" alt="Photo of Hotel 2" class="gallery__photo">
+                            <figcaption><span>Small Beach Hotel Pool</span></figcaption>
                         </figure>
-                        <figure>
+                        <figure class="gallery__item">
                             <img src="img/hotel-3.jpg" alt="Photo of Hotel 3" class="gallery__photo">
+                            <figcaption><span>Small Beach Hotel Sea View</span></figcaption>
                         </figure>
                     </div>
                     <div class="summary">
-                        <div class="summary__heading">
-                            <h1>Small Beach Hotel</h1>
-                        </div>
-
+                        <h2 class="summary__heading">
+                            Small Beach Hotel
+                        </h2>
                         <div class="summary__stars">
                             <span class="material-icons summary__star-icon">star</span>
                             <span class="material-icons summary__star-icon">star</span>
@@ -100,7 +104,7 @@
                         </div>
 
                         <div class="summary__location">
-                            <span class="material-icons summary__location-icon">location_on</span>
+                            <span class="material-icons summary__location-icon">location_on here</span>
                             <a href="#" class="summary__location-button">Belle Mare, Mauritius</a>
                         </div>
 
@@ -109,11 +113,54 @@
                             <div class="summary__rating-count">512 Votes</div>
                         </div>
                     </div>
-                    <div class="detail">Detail</div>
-                    <div class="book-now">Book-Now</div>
+                    <div class="detail">
+                            <div class="description">
+                                <p class="paragraph">
+                                    Stretching along 2 km of a private, white sand beach, Small Beach Hotel is the perfect choice for some unforgettable luxury holidays in Mauritius. 
+                                    Famed for its excellent 5-star service, warm atmosphere and lush tropical environment, Small Beach Hotel will make you feel welcome from the moment you set foot on our stunning beach resort.
+                                </p>
+                                <p class="paragraph">
+                                    Small Beach Hotel sits on the tranquil east coast of Mauritius, around 60 km away from the Sir Seewoosagur Ramgoolam International Airport. No need to worry about transportation, an airport shuttle can be arranged upon request.
+                                </p>
+                                <ul class="list">
+                                    <li class="list__item">> Close to the Beach</li>
+                                    <li class="list__item">> Breakfast complimentary</li>
+                                    <li class="list__item">> Free Airport Shuttle</li>
+                                    <li class="list__item">> Free Wifi Service</li>
+                                    <li class="list__item">> Air conditioning & Heating</li>
+                                    <li class="list__item">> Pets Allowed</li>
+                                    <li class="list__item">> Multilingual</li>
+                                    <li class="list__item">> Perfect for all age groups</li>
+                                </ul>
+                            </div>
+
+                            <div class="calendar">
+                                <div class="calendar__text">
+                                    <h4>February 2023</h4>
+                                </div>
+                            </div>
+
+                    </div>
+                    
+                    <div class="booking">
+                        <h2 class="booking__booking-now">
+                            Good news! We have 4 free rooms for your selected dates!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left</span>
+                        </button>
+                    </div>
                 </main>
             </div>
-            <footer class="footer">Footer</footer>
+            <footer class="footer" align="right">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </footer>
         </div>
     </body>
 </html>
